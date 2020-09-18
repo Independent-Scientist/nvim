@@ -48,7 +48,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
-    Plug 'christianchiarulli/nvcode.vim'
+    " Plug 'christianchiarulli/nvcode.vim'
+    Plug 'croaker/mustang-vim'
     " Plug 'ChristianChiarulli/nv-code'
     " Plug 'kyazdani42/blue-moon'
     " Intellisense
@@ -59,6 +60,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+
     " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
