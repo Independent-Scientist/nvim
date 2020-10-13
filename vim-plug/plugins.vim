@@ -29,6 +29,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'machakann/vim-highlightedyank'
   else
 
+    " OmniSharp-vim
+    Plug 'OmniSharp/omnisharp-vim'
+
     " Sneak
     Plug 'justinmk/vim-sneak'
     " Surround
